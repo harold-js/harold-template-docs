@@ -1,0 +1,23 @@
+  </div>
+  <footer class="main-footer">
+    Harold Docs Template
+    <a href="{{relativePath 'docs.html'}}" class="main-footer-link">About</a>
+  </footer>
+
+  {{> search-overlay}}
+  {{> main-menu-overlay}}
+  {{> go-top-btn}}
+
+  <script src="//unpkg.com/@highlightjs/cdn-assets@10.7.2/highlight.min.js"></script>
+  <script src="//unpkg.com/@highlightjs/cdn-assets@10.7.2/languages/handlebars.min.js"></script>
+  <script>hljs.highlightAll();</script>
+  <script src="https://unpkg.com/lunr/lunr.js"></script>
+
+  <script src="{{relativePath 'assets/js/harold.js'}}"></script>
+  <script src="{{relativePath 'assets/js/harold-search.js'}}"></script>
+  <script src="{{relativePath 'assets/js/harold-main-menu.js'}}"></script>
+  <script src="{{relativePath 'assets/js/harold-scroll-top.js'}}"></script>
+  <script src="{{relativePath 'assets/js/harold-docs.js'}}"></script>
+</body>
+
+</html>
