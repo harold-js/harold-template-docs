@@ -107,8 +107,8 @@
       const leftMenuItems = document.querySelectorAll('.' + leftMenuItemClass);
       leftMenuItems.forEach(function (leftMenuItem) {
         if (
-          locationPathName.includes(
-            leftMenuItem.innerText.toLowerCase().replace(/\s+/g, '-')
+          locationPathName.toLowerCase().replace(/\-+/g, '').includes(
+            leftMenuItem.innerText.toLowerCase().replace(/\s+/g, '')
           )
         ) {
           leftMenuItem.classList.add('js-selected-menu-item');
