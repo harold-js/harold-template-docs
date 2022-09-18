@@ -52,6 +52,9 @@ code {
 
 pre {
   font-size: 14px;
+  max-width: 100%;
+  word-break: break-word;
+  white-space: pre-wrap;
 
   code.hljs {
     font-size: inherit;
