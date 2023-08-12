@@ -1,17 +1,17 @@
 Docs template for Harold
 
-Use it with [create-harold-app](https://github.com/juliancwirko/create-harold-app)
+Use it with [create-harold-app](https://github.com/harold-js/create-harold-app)
 
 ```
-npm init harold-app my-app -t docs
+npm init harold-app@latest my-app -t docs
 ```
 
 with npm 7+
 ```
-npm init harold-app my-app -- -t docs
+npm init harold-app@latest my-app -- -t docs
 ```
 
 with yarn
 ```
-yarn create harold-app my-app -t docs
+yarn create harold-app@latest my-app -t docs
 ```
